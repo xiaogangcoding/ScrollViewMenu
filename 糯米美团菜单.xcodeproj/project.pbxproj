@@ -1,0 +1,566 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D6F243041CB4B68000DCC769 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D6F243031CB4B68000DCC769 /* main.m */; };
+		D6F243071CB4B68000DCC769 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D6F243061CB4B68000DCC769 /* AppDelegate.m */; };
+		D6F2430A1CB4B68000DCC769 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D6F243091CB4B68000DCC769 /* ViewController.m */; };
+		D6F2430D1CB4B68000DCC769 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6F2430B1CB4B68000DCC769 /* Main.storyboard */; };
+		D6F2430F1CB4B68000DCC769 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D6F2430E1CB4B68000DCC769 /* Assets.xcassets */; };
+		D6F243121CB4B68000DCC769 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6F243101CB4B68000DCC769 /* LaunchScreen.storyboard */; };
+		D6F2431D1CB4B68000DCC769 /* ______Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = D6F2431C1CB4B68000DCC769 /* ______Tests.m */; };
+		D6F243281CB4B68000DCC769 /* ______UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D6F243271CB4B68000DCC769 /* ______UITests.m */; };
+		D6F2433B1CB4B78100DCC769 /* MenuItemCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D6F2433A1CB4B78100DCC769 /* MenuItemCell.m */; };
+		D6F2433F1CB4BA4500DCC769 /* UIView+MJExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = D6F2433E1CB4BA4500DCC769 /* UIView+MJExtension.m */; };
+		D6F243421CB4BCA100DCC769 /* ScollViewMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = D6F243411CB4BCA100DCC769 /* ScollViewMenu.m */; };
+		D6F243451CB4DFF200DCC769 /* MenuItemModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D6F243441CB4DFF200DCC769 /* MenuItemModel.m */; };
+		D6F243471CB4E21F00DCC769 /* test@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = D6F243461CB4E21F00DCC769 /* test@3x.png */; };
+		D6F2434A1CB4E84000DCC769 /* MenuItemBtn.m in Sources */ = {isa = PBXBuildFile; fileRef = D6F243491CB4E84000DCC769 /* MenuItemBtn.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D6F243191CB4B68000DCC769 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D6F242F71CB4B68000DCC769 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D6F242FE1CB4B68000DCC769;
+			remoteInfo = "糯米美团菜单";
+		};
+		D6F243241CB4B68000DCC769 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D6F242F71CB4B68000DCC769 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D6F242FE1CB4B68000DCC769;
+			remoteInfo = "糯米美团菜单";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D6F242FF1CB4B68000DCC769 /* 糯米美团菜单.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "糯米美团菜单.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6F243031CB4B68000DCC769 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D6F243051CB4B68000DCC769 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D6F243061CB4B68000DCC769 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D6F243081CB4B68000DCC769 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D6F243091CB4B68000DCC769 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D6F2430C1CB4B68000DCC769 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D6F2430E1CB4B68000DCC769 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D6F243111CB4B68000DCC769 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D6F243131CB4B68000DCC769 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D6F243181CB4B68000DCC769 /* 糯米美团菜单Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "糯米美团菜单Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6F2431C1CB4B68000DCC769 /* ______Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "______Tests.m"; sourceTree = "<group>"; };
+		D6F2431E1CB4B68000DCC769 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D6F243231CB4B68000DCC769 /* 糯米美团菜单UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "糯米美团菜单UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6F243271CB4B68000DCC769 /* ______UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "______UITests.m"; sourceTree = "<group>"; };
+		D6F243291CB4B68000DCC769 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D6F243391CB4B78100DCC769 /* MenuItemCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuItemCell.h; sourceTree = "<group>"; };
+		D6F2433A1CB4B78100DCC769 /* MenuItemCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuItemCell.m; sourceTree = "<group>"; };
+		D6F2433C1CB4B91A00DCC769 /* Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Header.h; sourceTree = "<group>"; };
+		D6F2433D1CB4BA4400DCC769 /* UIView+MJExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+MJExtension.h"; sourceTree = "<group>"; };
+		D6F2433E1CB4BA4500DCC769 /* UIView+MJExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+MJExtension.m"; sourceTree = "<group>"; };
+		D6F243401CB4BCA100DCC769 /* ScollViewMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScollViewMenu.h; sourceTree = "<group>"; };
+		D6F243411CB4BCA100DCC769 /* ScollViewMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScollViewMenu.m; sourceTree = "<group>"; };
+		D6F243431CB4DFF200DCC769 /* MenuItemModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuItemModel.h; sourceTree = "<group>"; };
+		D6F243441CB4DFF200DCC769 /* MenuItemModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuItemModel.m; sourceTree = "<group>"; };
+		D6F243461CB4E21F00DCC769 /* test@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "test@3x.png"; sourceTree = "<group>"; };
+		D6F243481CB4E84000DCC769 /* MenuItemBtn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuItemBtn.h; sourceTree = "<group>"; };
+		D6F243491CB4E84000DCC769 /* MenuItemBtn.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuItemBtn.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D6F242FC1CB4B68000DCC769 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6F243151CB4B68000DCC769 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6F243201CB4B68000DCC769 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D6F242F61CB4B68000DCC769 = {
+			isa = PBXGroup;
+			children = (
+				D6F243011CB4B68000DCC769 /* 糯米美团菜单 */,
+				D6F2431B1CB4B68000DCC769 /* 糯米美团菜单Tests */,
+				D6F243261CB4B68000DCC769 /* 糯米美团菜单UITests */,
+				D6F243001CB4B68000DCC769 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D6F243001CB4B68000DCC769 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D6F242FF1CB4B68000DCC769 /* 糯米美团菜单.app */,
+				D6F243181CB4B68000DCC769 /* 糯米美团菜单Tests.xctest */,
+				D6F243231CB4B68000DCC769 /* 糯米美团菜单UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D6F243011CB4B68000DCC769 /* 糯米美团菜单 */ = {
+			isa = PBXGroup;
+			children = (
+				D6F243351CB4B6BC00DCC769 /* ScrollviewMenu */,
+				D6F243051CB4B68000DCC769 /* AppDelegate.h */,
+				D6F243061CB4B68000DCC769 /* AppDelegate.m */,
+				D6F243081CB4B68000DCC769 /* ViewController.h */,
+				D6F243091CB4B68000DCC769 /* ViewController.m */,
+				D6F2430B1CB4B68000DCC769 /* Main.storyboard */,
+				D6F2430E1CB4B68000DCC769 /* Assets.xcassets */,
+				D6F243101CB4B68000DCC769 /* LaunchScreen.storyboard */,
+				D6F243131CB4B68000DCC769 /* Info.plist */,
+				D6F243021CB4B68000DCC769 /* Supporting Files */,
+			);
+			path = "糯米美团菜单";
+			sourceTree = "<group>";
+		};
+		D6F243021CB4B68000DCC769 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D6F243031CB4B68000DCC769 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D6F2431B1CB4B68000DCC769 /* 糯米美团菜单Tests */ = {
+			isa = PBXGroup;
+			children = (
+				D6F2431C1CB4B68000DCC769 /* ______Tests.m */,
+				D6F2431E1CB4B68000DCC769 /* Info.plist */,
+			);
+			path = "糯米美团菜单Tests";
+			sourceTree = "<group>";
+		};
+		D6F243261CB4B68000DCC769 /* 糯米美团菜单UITests */ = {
+			isa = PBXGroup;
+			children = (
+				D6F243271CB4B68000DCC769 /* ______UITests.m */,
+				D6F243291CB4B68000DCC769 /* Info.plist */,
+			);
+			path = "糯米美团菜单UITests";
+			sourceTree = "<group>";
+		};
+		D6F243351CB4B6BC00DCC769 /* ScrollviewMenu */ = {
+			isa = PBXGroup;
+			children = (
+				D6F243461CB4E21F00DCC769 /* test@3x.png */,
+				D6F2433D1CB4BA4400DCC769 /* UIView+MJExtension.h */,
+				D6F2433E1CB4BA4500DCC769 /* UIView+MJExtension.m */,
+				D6F243391CB4B78100DCC769 /* MenuItemCell.h */,
+				D6F2433A1CB4B78100DCC769 /* MenuItemCell.m */,
+				D6F243481CB4E84000DCC769 /* MenuItemBtn.h */,
+				D6F243491CB4E84000DCC769 /* MenuItemBtn.m */,
+				D6F243401CB4BCA100DCC769 /* ScollViewMenu.h */,
+				D6F243411CB4BCA100DCC769 /* ScollViewMenu.m */,
+				D6F243431CB4DFF200DCC769 /* MenuItemModel.h */,
+				D6F243441CB4DFF200DCC769 /* MenuItemModel.m */,
+				D6F2433C1CB4B91A00DCC769 /* Header.h */,
+			);
+			path = ScrollviewMenu;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D6F242FE1CB4B68000DCC769 /* 糯米美团菜单 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D6F2432C1CB4B68000DCC769 /* Build configuration list for PBXNativeTarget "糯米美团菜单" */;
+			buildPhases = (
+				D6F242FB1CB4B68000DCC769 /* Sources */,
+				D6F242FC1CB4B68000DCC769 /* Frameworks */,
+				D6F242FD1CB4B68000DCC769 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "糯米美团菜单";
+			productName = "糯米美团菜单";
+			productReference = D6F242FF1CB4B68000DCC769 /* 糯米美团菜单.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D6F243171CB4B68000DCC769 /* 糯米美团菜单Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D6F2432F1CB4B68000DCC769 /* Build configuration list for PBXNativeTarget "糯米美团菜单Tests" */;
+			buildPhases = (
+				D6F243141CB4B68000DCC769 /* Sources */,
+				D6F243151CB4B68000DCC769 /* Frameworks */,
+				D6F243161CB4B68000DCC769 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D6F2431A1CB4B68000DCC769 /* PBXTargetDependency */,
+			);
+			name = "糯米美团菜单Tests";
+			productName = "糯米美团菜单Tests";
+			productReference = D6F243181CB4B68000DCC769 /* 糯米美团菜单Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D6F243221CB4B68000DCC769 /* 糯米美团菜单UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D6F243321CB4B68000DCC769 /* Build configuration list for PBXNativeTarget "糯米美团菜单UITests" */;
+			buildPhases = (
+				D6F2431F1CB4B68000DCC769 /* Sources */,
+				D6F243201CB4B68000DCC769 /* Frameworks */,
+				D6F243211CB4B68000DCC769 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D6F243251CB4B68000DCC769 /* PBXTargetDependency */,
+			);
+			name = "糯米美团菜单UITests";
+			productName = "糯米美团菜单UITests";
+			productReference = D6F243231CB4B68000DCC769 /* 糯米美团菜单UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D6F242F71CB4B68000DCC769 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = ubetween;
+				TargetAttributes = {
+					D6F242FE1CB4B68000DCC769 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					D6F243171CB4B68000DCC769 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = D6F242FE1CB4B68000DCC769;
+					};
+					D6F243221CB4B68000DCC769 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = D6F242FE1CB4B68000DCC769;
+					};
+				};
+			};
+			buildConfigurationList = D6F242FA1CB4B68000DCC769 /* Build configuration list for PBXProject "糯米美团菜单" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D6F242F61CB4B68000DCC769;
+			productRefGroup = D6F243001CB4B68000DCC769 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D6F242FE1CB4B68000DCC769 /* 糯米美团菜单 */,
+				D6F243171CB4B68000DCC769 /* 糯米美团菜单Tests */,
+				D6F243221CB4B68000DCC769 /* 糯米美团菜单UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D6F242FD1CB4B68000DCC769 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6F243121CB4B68000DCC769 /* LaunchScreen.storyboard in Resources */,
+				D6F2430F1CB4B68000DCC769 /* Assets.xcassets in Resources */,
+				D6F2430D1CB4B68000DCC769 /* Main.storyboard in Resources */,
+				D6F243471CB4E21F00DCC769 /* test@3x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6F243161CB4B68000DCC769 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6F243211CB4B68000DCC769 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D6F242FB1CB4B68000DCC769 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6F2433F1CB4BA4500DCC769 /* UIView+MJExtension.m in Sources */,
+				D6F2430A1CB4B68000DCC769 /* ViewController.m in Sources */,
+				D6F243071CB4B68000DCC769 /* AppDelegate.m in Sources */,
+				D6F243041CB4B68000DCC769 /* main.m in Sources */,
+				D6F2433B1CB4B78100DCC769 /* MenuItemCell.m in Sources */,
+				D6F243421CB4BCA100DCC769 /* ScollViewMenu.m in Sources */,
+				D6F2434A1CB4E84000DCC769 /* MenuItemBtn.m in Sources */,
+				D6F243451CB4DFF200DCC769 /* MenuItemModel.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6F243141CB4B68000DCC769 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6F2431D1CB4B68000DCC769 /* ______Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6F2431F1CB4B68000DCC769 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6F243281CB4B68000DCC769 /* ______UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D6F2431A1CB4B68000DCC769 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D6F242FE1CB4B68000DCC769 /* 糯米美团菜单 */;
+			targetProxy = D6F243191CB4B68000DCC769 /* PBXContainerItemProxy */;
+		};
+		D6F243251CB4B68000DCC769 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D6F242FE1CB4B68000DCC769 /* 糯米美团菜单 */;
+			targetProxy = D6F243241CB4B68000DCC769 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D6F2430B1CB4B68000DCC769 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D6F2430C1CB4B68000DCC769 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D6F243101CB4B68000DCC769 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D6F243111CB4B68000DCC769 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D6F2432A1CB4B68000DCC769 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D6F2432B1CB4B68000DCC769 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D6F2432D1CB4B68000DCC769 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "糯米美团菜单/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ubetween.------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D6F2432E1CB4B68000DCC769 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "糯米美团菜单/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ubetween.------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D6F243301CB4B68000DCC769 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "糯米美团菜单Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ubetween.------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/糯米美团菜单.app/糯米美团菜单";
+			};
+			name = Debug;
+		};
+		D6F243311CB4B68000DCC769 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "糯米美团菜单Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ubetween.------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/糯米美团菜单.app/糯米美团菜单";
+			};
+			name = Release;
+		};
+		D6F243331CB4B68000DCC769 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "糯米美团菜单UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ubetween.------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "糯米美团菜单";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		D6F243341CB4B68000DCC769 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "糯米美团菜单UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ubetween.------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "糯米美团菜单";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D6F242FA1CB4B68000DCC769 /* Build configuration list for PBXProject "糯米美团菜单" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6F2432A1CB4B68000DCC769 /* Debug */,
+				D6F2432B1CB4B68000DCC769 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D6F2432C1CB4B68000DCC769 /* Build configuration list for PBXNativeTarget "糯米美团菜单" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6F2432D1CB4B68000DCC769 /* Debug */,
+				D6F2432E1CB4B68000DCC769 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D6F2432F1CB4B68000DCC769 /* Build configuration list for PBXNativeTarget "糯米美团菜单Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6F243301CB4B68000DCC769 /* Debug */,
+				D6F243311CB4B68000DCC769 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D6F243321CB4B68000DCC769 /* Build configuration list for PBXNativeTarget "糯米美团菜单UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6F243331CB4B68000DCC769 /* Debug */,
+				D6F243341CB4B68000DCC769 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D6F242F71CB4B68000DCC769 /* Project object */;
+}
